@@ -1,0 +1,101 @@
+/*elementos básicos*/
+
+* {
+    font-family: 'Brush Script MT', cursive;
+}
+
+#main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10%;
+}
+
+img {
+    width:20%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border-width: 3px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+input:valid {
+    color: black;
+  }
+  
+input:invalid {
+    color: red;
+}
+
+label {
+    font-size: 18px;
+    width: 100%;
+    text-align:center;
+}
+
+/*juego*/
+
+#adivinada {
+    font-size: 45px;
+}
+
+#letras {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    gap: 10px;
+}
+
+.boton_letra {
+    font-size: 30px;
+    transition-duration: 0.4s;
+    background-color: #ffffff; 
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    border-width: 3px;
+  }
+  
+.boton_letra:hover {
+    background-color: #4CAF50; /* Green */
+}
+
+.boton_basico {
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    border-width: 0px;
+    cursor:pointer;
+}
+
+.boton_basico:hover {
+    font-size: 22px;
+    font-weight:500;
+}
+
+#resultado {
+    font-size: 28px;
+}

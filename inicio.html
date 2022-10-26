@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hangman</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+    <h1>el ahorcado :)</h1>
+    <div id="main">
+
+        <!-- pantalla inicial -->
+        <form>
+            <label for="palabra">introduce tu palabra</label>
+            <input id="input_palabra" type="password" name="palabra" pattern="^[a-zA-Z]+$" required>
+            <input type="submit" class="boton_basico" value="EMPEZAR" onclick="guardarPalabra();">
+        </form>
+
+        <div id="errores"></div>
+    </div>
+
+</body>
+</html>
